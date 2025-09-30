@@ -1,0 +1,9 @@
+/* Estilos básicos y override de Bootstrap */
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: #f8f9fa; color:#222; }
+.hero { background: linear-gradient(180deg, #fff 0%, #f8f9fa 100%); }
+.category-card .card-img-top { height: 140px; object-fit: cover; }
+.card .card-title { font-size: 1rem; }
+footer small { color: #adb5bd; }
+@media (max-width: 576px){
+  .hero .display-5 { font-size: 1.6rem; }
+}
