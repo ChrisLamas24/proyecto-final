@@ -11,7 +11,13 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
       <a class="navbar-brand" href="index.html">TechShop</a>
-      <div class="collapse navbar-collapse">
+
+      <!-- AGREGADO: boton hamburguesa para mantener consistencia -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMain">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="products.html">Productos</a></li>
@@ -41,13 +47,12 @@
       <h3>Fotos de la tienda</h3>
       <div class="row g-3">
         <div class="col-md-4">
-          <img src="https://source.unsplash.com/800x600/?store,interior" class="img-fluid rounded" alt="Tienda TechShop 1">
+          <!-- IMG 1: URL fija -->
+          <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?w=800&auto=format&fit=crop&q=80" class="img-fluid rounded" alt="Tienda TechShop 2">
         </div>
         <div class="col-md-4">
-          <img src="https://source.unsplash.com/800x600/?retail,shop" class="img-fluid rounded" alt="Tienda TechShop 2">
-        </div>
-        <div class="col-md-4">
-          <img src="https://source.unsplash.com/800x600/?technology,store" class="img-fluid rounded" alt="Tienda TechShop 3">
+          <!-- IMG 2: URL fija -->
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80" class="img-fluid rounded" alt="Tienda TechShop 3">
         </div>
       </div>
     </div>
